@@ -14,31 +14,15 @@ import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
-from sklearn.feature_selection import RFECV
-from sklearn.feature_selection import RFE
-from sklearn.ensemble import RandomForestClassifier
 from sklearn.ensemble import ExtraTreesClassifier
-from sklearn.linear_model import RidgeClassifier
-from sklearn.naive_bayes import CategoricalNB
-from sklearn.svm import SVC
 from sklearn import metrics
-from sklearn.metrics import roc_auc_score
 from tpot import TPOTClassifier
 from sklearn.pipeline import make_pipeline
 from tpot.builtins import StackingEstimator
-from sklearn.naive_bayes import GaussianNB
-from sklearn.pipeline import make_union
-from sklearn.decomposition import FastICA
-from sklearn.preprocessing import FunctionTransformer
-from sklearn.preprocessing import RobustScaler
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.neural_network import MLPClassifier
-from sklearn.linear_model import SGDClassifier
 from sklearn.naive_bayes import BernoulliNB
 from sklearn.preprocessing import MaxAbsScaler
 from sklearn.preprocessing import Normalizer
-import keras
-import tensorflow
+
 
 data_heart=pd.read_csv('data_heart_processed.csv')
 
