@@ -3,6 +3,5 @@ pandas
 numpy
 matplotlib
 seaborn
-pickle
 PIL 
 streamlit.components.v1 
