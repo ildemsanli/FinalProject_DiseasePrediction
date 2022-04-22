@@ -31,7 +31,7 @@ import os
  #41 (slope)   the slope of the peak exercise ST segment Value 1: upsloping, Value 2: flat, Value 3: downsloping
  #44 (ca)     number of major vessels (0-3) colored by flourosopy
  #51 (thal)   thal: 3 = normal; 6 = fixed defect; 7 = reversable defect
- #58 (num) (the predicted attribute)  num: diagnosis of heart disease (angiographic disease status), Value 0: < 50% diameter narrowing, Value 1: > 50% diameter narrowing
+ #58 (num) (the predicted attribute)  num: diagnosis of heart disease (angiographic disease status), Value 0: no disease, Value 1: disease
 
 col_names= ['age', 'sex', 'cp', 'trestbps', 'chol', 'fbs', 'restecg', 'thalach', 'exang',
             'oldpeak', 'slope', 'ca', 'thal', 'num']
