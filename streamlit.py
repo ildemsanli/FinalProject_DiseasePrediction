@@ -1,18 +1,6 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Apr 20 14:30:55 2022
-
-@author: ildem
-"""
-
-#%%
 import streamlit as st
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-from scipy import stats
 import pickle as pkl
 import streamlit.components.v1 as components
 
