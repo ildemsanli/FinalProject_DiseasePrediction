@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Apr 20 14:30:55 2022
-
-@author: ildem
-"""
 
 #%%
 import streamlit as st
