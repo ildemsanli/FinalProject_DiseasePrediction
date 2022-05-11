@@ -27,7 +27,7 @@ It is suitable for classification of binomial data with discrete features.
 
 http://54.90.190.116:8501/
 
-# Additional Data Analysis
+### Additional Data Analysis
 
 As a background research, I analysed data from WHO on causes of mortality and showed percentages of causes in each country on a map.
 
