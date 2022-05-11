@@ -77,7 +77,7 @@ exported_pipeline = make_pipeline(
 
 
 # Train-test split
-x_train, x_test, y_train, y_test = train_test_split(x_pro_selected, y, test_size=0.2, 
+x_train, x_test, y_train, y_test = train_test_split(x_selected, y, test_size=0.2, 
                                                     random_state=42)
 
 m=exported_pipeline.fit(x_train, y_train)
